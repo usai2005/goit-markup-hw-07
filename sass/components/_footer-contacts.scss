@@ -1,0 +1,34 @@
+.footer-contact-information {
+  display: inline-flex;
+
+  flex-direction: column;
+
+  line-height: 1.71;
+  width: 231px;
+
+  @extend %list;
+}
+
+.footer-contact-information__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-contact-information__location,
+.footer-contact-information__mail,
+.footer-contact-information__phone {
+  text-decoration: none;
+  color: getColor('white-color');
+  font-style: normal;
+
+  transition: color 250ms $timing-function;
+
+  &:hover,
+  &:focus {
+    color: getColor('color-in-action');
+  }
+}
+
+.footer-contact-information__mail,
+.footer-contact-information__phone {
+  color: getColor('ftr-contact-text-color');
+}

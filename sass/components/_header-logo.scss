@@ -1,0 +1,12 @@
+.header__logo {
+  @extend %logo;
+
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: getColor('black-color');
+}
+
+.header__logo--blue {
+  color: getColor('color-in-action');
+}

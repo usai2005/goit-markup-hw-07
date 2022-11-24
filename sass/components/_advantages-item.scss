@@ -1,0 +1,32 @@
+.advantages__item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.advantages__icon-field {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 270px;
+  height: 120px;
+
+  margin-bottom: 30px;
+
+  background: getColor('main-background-color');
+  border-radius: 4px;
+}
+
+.advantages__card-title {
+  margin-bottom: 10px;
+
+  color: getColor('secondary-text-color');
+  font-weight: 700;
+  line-height: 1.17;
+  font-size: 14px;
+}
+
+.advantages__card-description {
+  color: getColor('main-text-color');
+  line-height: 1.71;
+}

@@ -1,0 +1,5 @@
+.hero__btn {
+  @extend %btn;
+
+  @include btn(216px, 50px);
+}
